@@ -47,5 +47,5 @@ Add the following to `config.yml` to get started:
 
 ```yml
 doctrine_mongodb_softdelete:
-    deleted_field_name: deletedAt
+    deleted_field_name: deleted
 ```

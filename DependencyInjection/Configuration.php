@@ -29,7 +29,7 @@ class Configuration implements ConfigurationInterface
             ->addDefaultsIfNotSet()
             ->children()
                 ->scalarNode('deleted_field_name')
-                    ->defaultValue('deletedAt')
+                    ->defaultValue('deleted')
                 ->end()
             ->end()
         ;
